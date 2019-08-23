@@ -17,6 +17,7 @@ windowSurface = pygame.display.set_mode((500,400),0,32)
 
 pygame.display.set_caption('Hello')
 
+'''
 apple = Actor("apple")
 
 def draw():
@@ -41,3 +42,4 @@ place_apple()
    
 
 pygame.go()
+'''
