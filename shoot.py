@@ -4,20 +4,18 @@ Created on Fri Mar  8 13:22:21 2019
 
 @author: Pearl
 """
-#import what we need
-import pygame,sys
-from pygame.locals import *
+import pgzrun
+
+# initialise screen
+#games.init(screen_width = 640, screen_height = 480, fps = 50)
+
+#import os
+#from os.path import dirname, realpath, abspath
+
+#__file__ = "D:/Technology/python/pygame/pallavi/shootthefruit"    # <-- This code is needed for CX_freeze, to avoid NameError.
+#file_path = os.path.join(dirname(__file__), "images", "apple.png")
 from random import randint
 
-#set up pygame
-pygame.inti()
-
-#set up window
-windowSurface = pygame.display.set_mode((500,400),0,32)
-
-pygame.display.set_caption('Hello')
-
-'''
 apple = Actor("apple")
 
 def draw():
@@ -41,5 +39,4 @@ def on_mouse_down(pos):
 place_apple()
    
 
-pygame.go()
-'''
+pgzrun.go()
