@@ -9,11 +9,6 @@ import pgzrun
 # initialise screen
 #games.init(screen_width = 640, screen_height = 480, fps = 50)
 
-#import os
-#from os.path import dirname, realpath, abspath
-
-#__file__ = "D:/Technology/python/pygame/pallavi/shootthefruit"    # <-- This code is needed for CX_freeze, to avoid NameError.
-#file_path = os.path.join(dirname(__file__), "images", "apple.png")
 from random import randint
 
 apple = Actor("apple")
